@@ -1,0 +1,271 @@
+@media screen and (max-width: 600px) {
+  .bottomnav {
+    height: 100px;
+
+    i {
+      margin-top: 22px;
+      margin-left: 150px;
+      text-align: center;
+    }
+  }
+
+  .section--home {
+    width: 1200px;
+    background-size: cover;
+    height: 1000px;
+
+    img {
+      display: flex;
+      width: 100%;
+      float: right;
+      margin-top: -50px;
+    }
+  }
+
+  .centered-text {
+    margin-left: 100px;
+    color: white;
+  }
+
+  .text-below-center {
+    color: white;
+    font-size: 20px;
+    margin-left: 109px;
+  }
+
+  #juice-bottel {
+    margin-right: 130px;
+  }
+
+  #leaf {
+    margin-right: 530px;
+    margin-top: -600px;
+  }
+
+  .viewmore {
+    margin-left: 100px;
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .shopnow {
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .box-in-middel {
+    margin-left: 200px;
+    width: 600px;
+  }
+
+  .row {
+    margin-right: 80px;
+  }
+
+  .col-sm-4 {
+    margin-left: 70px;
+  }
+
+  .img-large-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .f1 {
+    margin-left: 390px;
+  }
+
+  .workl {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .work {
+    margin-left: 340px;
+  }
+
+  .workim {
+    margin-top: 340px;
+    grid-row: 3/4;
+  }
+
+  .workr {
+    text-align: center;
+    font-size: 25px;
+    grid-row: 4/5;
+    margin-left: 10px;
+  }
+
+  .content,
+  .grid-container2 {
+    display: none;
+  }
+
+  .proud-punch {
+    text-align: left;
+    grid-template-columns: minmax(0, 2fr);
+    font-size: 25px;
+    text-align: center;
+  }
+
+  ​​ {
+    .ingredients {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .punchimage {
+      margin-left: 260px;
+    }
+  }
+
+  .proud-punch-item {
+    text-align: center;
+    margin-right: 190px;
+  }
+
+  .grid-carefully-picked {
+    /* margin-left: 150px; */
+
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  .grid1 {
+    grid-row: 1/2;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .grid2 {
+    grid-row: 3/4;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .grid3 {
+    grid-row: 4/5;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .grid4 {
+    grid-row: 5/6;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .product-info p {
+    font-size: 30px;
+  }
+
+  .gotoshop {
+    font-size: 20px;
+    width: 160px;
+    height: 80px;
+  }
+
+  .Our-Blog .box {
+    width: 45%;
+    margin-right: 150px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .our-blog-content p {
+    font-size: 20px;
+  }
+
+  .testimonial,
+  .name {
+    font-size: 25px;
+  }
+
+  .featured-product-zoom,
+  .card-center {
+    width: 100% !important;
+  }
+
+  .grid1,
+  .grid2,
+  .grid3,
+  .grid4 {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .topnav {
+    display: none;
+  }
+
+  .bottomnav {
+    display: inline-block;
+  }
+
+  .button2 {
+    display: none;
+  }
+}
+
+@media screen and  (max-width: 1200px) {
+  .single-item-right {
+    display: none;
+  }
+
+  .img-large-left {
+    width: 120%;
+  }
+
+  .col-10 {
+    width: 100%;
+  }
+
+  /* Blend fruits section: start */
+
+  .container-half,
+  .col-sm-8 {
+    margin-right: 800px;
+  }
+
+  .col-sm-4 {
+    margin-top: -500px;
+    margin-left: 700px;
+  }
+
+  .two-buttons {
+    margin-left: -350px;
+  }
+
+  /* Blend fruits section: end */
+  /*carefully picked section: start*/
+
+  .grid-carefully-picked {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .grid1 {
+    width: 100%;
+  }
+
+  .grid2 {
+    width: 103%;
+  }
+
+  .grid3 {
+    width: 100%;
+  }
+
+  .grid4 {
+    width: 103%;
+  }
+
+  .bottomnav i {
+    margin-top: 22px;
+    margin-left: 150px;
+    text-align: center;
+  }
+}

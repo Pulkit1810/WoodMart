@@ -1,0 +1,57 @@
+/*How it works : start*/
+
+$how-it-wroks-primary: #000;
+
+.f1 {
+  margin-top: 80px;
+  font-size: 50px;
+  color: $how-it-wroks-primary;
+  font-weight: bold;
+  font-family: "Signika";
+  margin-left: 500px;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 0px;
+  margin-left: 50px;
+
+  > div {
+    padding: 20px 0;
+    color: $how-it-wroks-primary;
+  }
+}
+
+.workl {
+  font-size: 20px;
+  width: 320px;
+  height: 300px;
+  text-align: right;
+  padding-left: 0px;
+
+  li {
+    list-style: none;
+    margin-top: 10px;
+  }
+}
+
+.workim {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.workr {
+  li {
+    list-style: none;
+    margin-top: 10px;
+  }
+
+  font-size: 20px;
+  width: 320px;
+  text-align: left;
+  margin-left: -100px;
+  padding-left: 0px;
+}
+
+/* How it works : end*/

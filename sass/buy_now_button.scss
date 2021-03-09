@@ -1,0 +1,33 @@
+/* Buy Now Button STARTING */
+
+$buybutton-primary-color: #fff;
+$buybutton-background-color: #fff;
+
+.buy-button {
+  background-color: $buybutton-background-color;
+  color: $buybutton-primary-color;
+  border-radius: 25px;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+  touch-action: manipulation;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  background-color: $buybutton-background-color;
+  color: $buybutton-primary-color;
+  font-size: 14px;
+  padding: 12px 20px 12px 16px;
+  border-radius: 35px;
+  line-height: 1;
+  z-index: 379;
+}
+
+/* Buy Now Button ENDING */

@@ -1,0 +1,72 @@
+/* carefully picked(bottom grid) start */
+
+$bottom-grid-primary-color: #fff;
+
+.grid-carefully-picked {
+  margin-right: 20px;
+  padding: 0;
+  display: grid;
+  min-width: 100vw;
+  grid-template-columns: auto auto auto auto;
+  color: $bottom-grid-primary-color;
+  grid-gap: 0px;
+}
+
+.grid1 {
+  background-color: #8871bf;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid2 {
+  background-color: #fea443;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid3 {
+  background-color: #f46277;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid4 {
+  background-color: #aebd7c;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid-carefully-picked > .num {
+  font-size: 40px;
+  font-weight: 800;
+  color: $bottom-grid-primary-color;
+  text-align: left;
+}
+
+.read-more {
+  color: $bottom-grid-primary-color;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  min-width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: $bottom-grid-primary-color;
+}
+
+.num {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 800;
+  color: $bottom-grid-primary-color;
+  text-align: left;
+}
+
+/* bottom grid end*/
