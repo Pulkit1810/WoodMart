@@ -1,6 +1,4 @@
-/* carefully picked(bottom grid) start */
-
-$bottom-grid-primary-color: #fff;
+/* carefully picked STARTING */
 
 .grid-carefully-picked {
   margin-right: 20px;
@@ -8,8 +6,60 @@ $bottom-grid-primary-color: #fff;
   display: grid;
   min-width: 100vw;
   grid-template-columns: auto auto auto auto;
-  color: $bottom-grid-primary-color;
+  color: #fff;
   grid-gap: 0px;
+}
+
+.head {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.grid1 {
+  background-color: #8871bf;
+  height: 300px;
+  width: 25vw;
+}
+
+.grid2 {
+  background-color: #fea443;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid3 {
+  background-color: #f46277;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid4 {
+  background-color: #aebd7c;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.grid-carefully-picked > .num {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  text-align: left;
+}
+
+.read-more {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  min-width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #fff;
 }
 
 .grid1 {
@@ -40,33 +90,17 @@ $bottom-grid-primary-color: #fff;
   padding: 20px;
 }
 
-.grid-carefully-picked > .num {
+.num {
+  margin-top: 10px;
   font-size: 40px;
   font-weight: 800;
-  color: $bottom-grid-primary-color;
+  color: #fff;
   text-align: left;
 }
 
 .read-more {
-  color: $bottom-grid-primary-color;
+  color: #fff;
   text-transform: uppercase;
 }
 
-.grid {
-  display: flex;
-  min-width: 100vw;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  color: $bottom-grid-primary-color;
-}
-
-.num {
-  margin-left: 30px;
-  margin-top: 10px;
-  font-size: 40px;
-  font-weight: 800;
-  color: $bottom-grid-primary-color;
-  text-align: left;
-}
-
-/* bottom grid end*/
+/* carefully picked ENDING */

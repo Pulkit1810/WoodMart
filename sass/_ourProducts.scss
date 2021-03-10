@@ -1,12 +1,9 @@
-/* Our Products */
-
+/* Our Products STARTING */
 /* @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 
 body {
   font-family: "Signika", sans-serif;
 } */
-
-$our-products-primary: #fff;
 
 .our-products-title,
 .our-products-heading {
@@ -31,13 +28,13 @@ $our-products-primary: #fff;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 300px;
   gap: 15px 20px;
-  background-color: $our-products-primary;
+  background-color: white;
 }
 
 .grid-element2 {
   position: relative;
-  background-color: $our-products-primary;
-  color: $our-products-primary;
+  background-color: white;
+  color: #fff;
   -ms-flex-line-pack: center;
   align-content: center;
 }
@@ -56,8 +53,8 @@ $our-products-primary: #fff;
     height: 0px;
     width: 80%;
     opacity: 0;
-    -webkit-transition: height 0.5s;
-    -o-transition: height 0.5s;
+    transition: height 0.5s;
+    transition: height 0.5s;
     transition: height 0.5s;
     background-color: #a3c45d;
   }
@@ -68,7 +65,7 @@ $our-products-primary: #fff;
     font-family: "Courier New", Courier, monospace;
     font-size: large;
     font-weight: bold;
-    color: $our-products-primary;
+    color: #fff;
   }
 
   .overlay1 {
@@ -79,15 +76,15 @@ $our-products-primary: #fff;
     bottom: 100%;
     height: 50%;
     width: 0px;
-    -webkit-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
     transition: 0.5s ease;
-    background-color: $our-products-primary;
+    transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: #fff;
   }
 
   &:hover .overlay1 {
     width: 50px;
-    color: rgb(51, 51, 51);
+    color: #333333;
   }
 }
 
@@ -108,4 +105,4 @@ $our-products-primary: #fff;
   margin-bottom: 18px;
 }
 
-/* Our Products */
+/* Our Products ENDING */

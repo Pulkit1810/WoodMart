@@ -1,8 +1,4 @@
-/* Blend Fruits Section start */
-
-$text-color-blend: #000;
-$background-color-blend: rgb(45, 42, 42);
-$primary-color-blend: rgba(0, 0, 0, 0.3);
+/* Third Component STARTING */
 
 .blend-fruits-section {
   margin-top: 100px;
@@ -14,8 +10,8 @@ $primary-color-blend: rgba(0, 0, 0, 0.3);
 }
 
 section {
-  color: $primary-color-blend;
-  background-color: $background-color-blend;
+  color: black;
+  background-color: white;
 }
 
 .column-four {
@@ -30,17 +26,17 @@ section {
 }
 
 .subtle {
-  background-color: $background-color-blend;
-  color: $primary-color-blend;
+  background-color: #f3f3f3;
+  color: #2d2a2a;
 }
 
 .text-single-item {
   font-family: "Signika";
-  color: $text-color-blend;
+  color: #2d2a2a;
   line-height: 24px;
   font-weight: 600;
   padding-bottom: 5px;
-  border-bottom: 1px solid $primary-color-blend;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .two-buttons {
@@ -55,7 +51,7 @@ section {
   margin: 0 -6px;
 
   > h2 {
-    color: $text-color-blend;
+    color: #2d2a2a;
     font-family: "Signika", sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -63,10 +59,10 @@ section {
 }
 
 .text-single-item-description {
-  color: rgb(119, 119, 119);
+  color: #777777;
   font-size: 14px;
   font-style: italic;
   margin-top: 2px;
 }
 
-/* Blend Fruits Section end*/
+/* Third Component ENDING */

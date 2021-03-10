@@ -1,21 +1,14 @@
-/* testimonials */
-
-$testimonial-primary-color: #000;
-$testimonial-secondary-color: #000;
+/* testimonials STARTING */
 
 .testimonial-heading {
   font-family: "Signika";
   font-weight: 700;
-  color: $testimonial-primary-color;
-}
-
-.svg-icon-testimonial {
-  margin-right: 100px;
+  color: #000;
 }
 
 .heading {
   text-align: center;
-  color: $testimonial-primary-color;
+  color: #000000;
   font-size: 30px;
   font-weight: 700;
   position: relative;
@@ -25,7 +18,7 @@ $testimonial-secondary-color: #000;
 }
 
 .white-heading {
-  color: $testimonial-secondary-color;
+  color: #ffffff;
 }
 
 .heading:after {
@@ -55,10 +48,10 @@ $testimonial-secondary-color: #000;
 }
 
 .white-heading span {
-  color: $testimonial-secondary-color;
+  color: #ffffff;
 }
 
-/*-----Testimonial-------*/
+// Testimonial
 
 * {
   margin: 0;
@@ -68,7 +61,7 @@ $testimonial-secondary-color: #000;
 
 .testimonials {
   padding: 40px 0;
-  background: $testimonial-secondary-color;
+  background: #f1f1f1;
   color: #434343;
   text-align: center;
 }
@@ -78,6 +71,13 @@ $testimonial-secondary-color: #000;
   margin: auto;
   overflow: hidden;
   padding: 0 20px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
 }
 
 .row {
@@ -94,7 +94,7 @@ $testimonial-secondary-color: #000;
 }
 
 .testimonial {
-  background: $testimonial-secondary-color;
+  background: #fff;
   padding: 30px;
 
   img {
@@ -122,4 +122,4 @@ $testimonial-secondary-color: #000;
   }
 }
 
-/* ------testimonial  close-------*/
+// Testimonial ENDING

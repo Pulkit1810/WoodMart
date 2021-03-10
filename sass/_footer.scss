@@ -1,3 +1,60 @@
+/* Footer STARTING */
+
+.footer {
+  background: #152f4f;
+  color: white;
+
+  .links {
+    ul {
+      list-style-type: none;
+    }
+
+    li a {
+      color: white;
+      transition: color 0.2s;
+      text-decoration: none;
+
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+
+    a {
+      color: white;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+
+  .location i {
+    font-size: 18px;
+  }
+
+  .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.copyright-text > .text-white-50 {
+  margin: 0 auto;
+}
+
+.footer-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* footer end */
 @media screen and (max-width: 600px) {
   .bottomnav {
     height: 100px;
@@ -10,7 +67,6 @@
   }
 
   .section--home {
-    width: 1200px;
     background-size: cover;
     height: 1000px;
 
@@ -60,12 +116,8 @@
     width: 600px;
   }
 
-  .row {
-    margin-right: 80px;
-  }
-
-  .col-sm-4 {
-    margin-left: 70px;
+  .container {
+    margin-left: -30px;
   }
 
   .img-large-left {
@@ -73,8 +125,12 @@
     height: auto;
   }
 
+  .card-title {
+    font-size: 35px;
+  }
+
   .f1 {
-    margin-left: 390px;
+    margin-left: 470px;
   }
 
   .workl {
@@ -83,7 +139,7 @@
   }
 
   .work {
-    margin-left: 340px;
+    margin-left: 400px;
   }
 
   .workim {
@@ -122,15 +178,11 @@
 
   .proud-punch-item {
     text-align: center;
-    margin-right: 190px;
+    margin-left: 30px;
   }
 
-  .grid-carefully-picked {
-    /* margin-left: 150px; */
-
-    h3 {
-      font-size: 30px;
-    }
+  .grid-carefully-picked h3 {
+    font-size: 30px;
   }
 
   .grid1 {
@@ -185,7 +237,7 @@
 
   .featured-product-zoom,
   .card-center {
-    width: 100% !important;
+    width: 100%;
   }
 
   .grid1,
@@ -193,6 +245,15 @@
   .grid3,
   .grid4 {
     margin: 0 auto;
+  }
+
+  .footer,
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .footer .row {
+    margin-left: 100px;
   }
 }
 
@@ -210,7 +271,7 @@
   }
 }
 
-@media screen and  (max-width: 1200px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
   .single-item-right {
     display: none;
   }
@@ -223,6 +284,11 @@
     width: 100%;
   }
 
+  .featured-product-zoom {
+    width: 500px;
+    margin-left: -100px;
+  }
+
   /* Blend fruits section: start */
 
   .container-half,
@@ -233,10 +299,6 @@
   .col-sm-4 {
     margin-top: -500px;
     margin-left: 700px;
-  }
-
-  .two-buttons {
-    margin-left: -350px;
   }
 
   /* Blend fruits section: end */
@@ -267,5 +329,12 @@
     margin-top: 22px;
     margin-left: 150px;
     text-align: center;
+  }
+
+  .footer {
+    .container,
+    .row {
+      margin-left: 100px;
+    }
   }
 }
