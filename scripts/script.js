@@ -24,6 +24,19 @@ loginbutton.addEventListener("click", loginBox);
 var closebutton = document.getElementById("close");
  closebutton.addEventListener("click", hideLoginBox);
 
+ const form = document.getElementById('form');
+ form.addEventListener("submit",function logsubmit(e){
+	var username = document.getElementById("user-input").value;
+	localStorage.setItem("firstname", username);
+	// Retrieve
+	var storedname = localStorage.getItem("firstname");
+	document.getElementById("reg").innerHTML = "Hi "+storedname;
+	e.preventDefault();
+	document.getElementById("login-box").classList.remove("navbar-section-hover")
+ });
+
+
+
 function showNavbarHomePopup() {
 	homeNavbarPopup.classList.add("navbar-section-hover")
 }

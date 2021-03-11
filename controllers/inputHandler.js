@@ -16,10 +16,17 @@ $(document).ready(function() {
         const verify = checkUser(userInput, response);
         if (verify) {
             result="Correct Username";
-            document.getElementById("loginresult").innerHTML=result;
+       
+            document.querySelector(".correct-username").classList.add("username-validation-correct");
+            document.querySelector(".correct-username").innerHTML=result;
+     
         } else {
-            result="Inorrect Username";
-            document.getElementById("loginresult").innerHTML=result;
+            result="Incorrect Username";
+            
+            document.querySelector(".correct-username").classList.remove("username-validation-correct");
+            document.querySelector(".correct-username").classList.add("username-validation-failed");
+            document.querySelector(".correct-username").innerHTML=result;
+           
         }
 
 

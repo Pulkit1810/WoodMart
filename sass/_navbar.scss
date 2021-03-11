@@ -207,6 +207,12 @@ h3 {
   display: none;
 }
 
+.username-validation-failed{
+  color: red;
+}
+.username-validation-correct{
+  color: green;
+  }
 input {
   display: block;
   box-sizing: border-box;

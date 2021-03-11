@@ -168,6 +168,12 @@ h3 {
   position: fixed;
   display: none; }
 
+.username-validation-failed {
+  color: red; }
+
+.username-validation-correct {
+  color: green; }
+
 input {
   display: block;
   box-sizing: border-box;
@@ -235,7 +241,7 @@ button.socialmedia {
   color: white; }
 
 #close {
-
+  /*Aayushman Change*/
   position: absolute;
   top: 20px;
   right: 30px;
@@ -480,8 +486,7 @@ button.socialmedia {
   letter-spacing: 0.3px;
   font-weight: 600;
   cursor: pointer;
-  transition: color 0.25s ease, background-color 0.25s ease,
- border-color 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
   overflow: hidden;
   padding: 10px;
   background-color: #83b735;
@@ -1408,11 +1413,11 @@ section {
   .grid1 {
     width: 100%; }
   .grid2 {
-    width: 103%; }
+    width: 100%; }
   .grid3 {
     width: 100%; }
   .grid4 {
-    width: 103%; }
+    width: 100%; }
   .bottomnav i {
     margin-top: 22px;
     margin-left: 150px;
