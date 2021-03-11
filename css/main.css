@@ -1139,7 +1139,8 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 30px; }
 
 .testimonials > .col {
   flex: 33.33%;
