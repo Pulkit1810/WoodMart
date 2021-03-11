@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-    //for scroll to count
+$(document).ready(() => {
     var a = 0;
     $(window).scroll(function() {
     var oTop = $(".count").offset().top - window.innerHeight;

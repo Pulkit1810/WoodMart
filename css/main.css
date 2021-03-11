@@ -462,7 +462,7 @@ button.socialmedia {
 .cart-button {
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
-  margin: 0;
+  margin: 10px;
   border: 0;
   font: inherit;
   touch-action: manipulation;
