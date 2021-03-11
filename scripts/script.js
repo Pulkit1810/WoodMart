@@ -1,82 +1,96 @@
-window.addEventListener("scroll", function() { document.querySelector("nav").classList.toggle("sticky", 0 < window.scrollY) });
+const home = document.getElementById('home-link');
 
-var home = document.getElementById("home-link");
-home.addEventListener("mouseover", showNavbarHomePopup), home.addEventListener("mouseout", hideNavbarHomePopup);
+const homeNavbarPopup = document.getElementById('home-menu');
 
-var homeNavbarPopup = document.getElementById("home-menu");
-homeNavbarPopup.addEventListener("mouseover", showNavbarHomePopup), homeNavbarPopup.addEventListener("mouseout", hideNavbarHomePopup);
+const shop = document.getElementById('shop-link');
 
-var shop = document.getElementById("shop-link");
-shop.addEventListener("mouseover", showNavbarShopPopup), shop.addEventListener("mouseout", hideNavbarShopPopup);
+const shopNavbarPopup = document.getElementById('shop-menu');
 
-var shopNavbarPopup = document.getElementById("shop-menu");
-shopNavbarPopup.addEventListener("mouseover", showNavbarShopPopup), shopNavbarPopup.addEventListener("mouseout", hideNavbarShopPopup);
+const blog = document.getElementById('blog-link');
 
-var blog = document.getElementById("blog-link");
-blog.addEventListener("mouseover", showNavbarBlogPopup), blog.addEventListener("mouseout", hideNavbarBlogPopup);
+const blogNavbarPopup = document.getElementById('blog-menu');
 
-var blogNavbarPopup = document.getElementById("blog-menu");
-blogNavbarPopup.addEventListener("mouseover", showNavbarBlogPopup), blogNavbarPopup.addEventListener("mouseout", hideNavbarBlogPopup);
+const loginbutton = document.getElementById('reg');
 
-var loginbutton = document.getElementById("reg");
-loginbutton.addEventListener("click", loginBox);
+const closebutton = document.getElementById('close');
 
-var closebutton = document.getElementById("close");
- closebutton.addEventListener("click", hideLoginBox);
-
- const form = document.getElementById('form');
- form.addEventListener("submit",function logsubmit(e){
-	var username = document.getElementById("user-input").value;
-	localStorage.setItem("firstname", username);
-	// Retrieve
-	var storedname = localStorage.getItem("firstname");
-	document.getElementById("reg").innerHTML = "Hi "+storedname;
-	e.preventDefault();
-	document.getElementById("login-box").classList.remove("navbar-section-hover")
- });
-
-
-
+const form = document.getElementById('form');
+window.addEventListener('scroll', () => {
+  document.querySelector('nav').classList.toggle('sticky', window.scrollY > 0);
+});
 function showNavbarHomePopup() {
-	homeNavbarPopup.classList.add("navbar-section-hover")
+  homeNavbarPopup.classList.add('navbar-section-hover');
 }
-
-// const showNavbarHomePopup = () => {
-//  return homeNavbarPopup.classList.add("navbar-section-hover");
-// }
 
 function hideNavbarHomePopup() {
-	homeNavbarPopup.classList.remove("navbar-section-hover")
+  homeNavbarPopup.classList.remove('navbar-section-hover');
+}
+function showNavbarShopPopup() {
+  shopNavbarPopup.classList.add('navbar-section-hover');
+}
+function hideNavbarShopPopup() {
+  shopNavbarPopup.classList.remove('navbar-section-hover');
+}
+function showNavbarBlogPopup() {
+  blogNavbarPopup.classList.add('navbar-section-hover');
+}
+function hideNavbarBlogPopup() {
+  blogNavbarPopup.classList.remove('navbar-section-hover');
+}
+function loginBox() {
+  document.getElementById('login-box').classList.add('navbar-section-hover');
 }
 
-function showNavbarShopPopup() { 
-	shopNavbarPopup.classList.add("navbar-section-hover")
+function hideLoginBox() {
+  document.getElementById('login-box').classList.remove('navbar-section-hover');
 }
 
-function hideNavbarShopPopup() { 
-	shopNavbarPopup.classList.remove("navbar-section-hover") 
-}
+home.addEventListener('mouseover', showNavbarHomePopup);
+home.addEventListener('mouseout', hideNavbarHomePopup);
 
-function showNavbarBlogPopup() { 
-	blogNavbarPopup.classList.add("navbar-section-hover") 
-}
+homeNavbarPopup.addEventListener('mouseover', showNavbarHomePopup);
+homeNavbarPopup.addEventListener('mouseout', hideNavbarHomePopup);
 
-function hideNavbarBlogPopup() { 
-	blogNavbarPopup.classList.remove("navbar-section-hover")
-}
+shop.addEventListener('mouseover', showNavbarShopPopup);
+shop.addEventListener('mouseout', hideNavbarShopPopup);
 
-function loginBox() { 
-	document.getElementById("login-box").classList.add("navbar-section-hover") 
-}
+shopNavbarPopup.addEventListener('mouseover', showNavbarShopPopup);
+shopNavbarPopup.addEventListener('mouseout', hideNavbarShopPopup);
 
-function hideLoginBox() { 
-	document.getElementById("login-box").classList.remove("navbar-section-hover")
-} 
+blog.addEventListener('mouseover', showNavbarBlogPopup);
+blog.addEventListener('mouseout', hideNavbarBlogPopup);
 
-const counters = document.querySelectorAll(".counter"),
-    speed = 200;
-counters.forEach(counter => { const target = () => { var e = +counter.getAttribute("data-target"),
-            count = +counter.innerText,
-            increase = e / speed;
-        count < e ? (counter.innerText = Math.round(count + increase), setTimeout(target, 1)) : counter.innerText = Math.round(e) };
-    target() });
+blogNavbarPopup.addEventListener('mouseover', showNavbarBlogPopup);
+blogNavbarPopup.addEventListener('mouseout', hideNavbarBlogPopup);
+
+loginbutton.addEventListener('click', loginBox);
+
+closebutton.addEventListener('click', hideLoginBox);
+
+form.addEventListener('submit', (e) => {
+  const username = document.getElementById('user-input').value;
+  localStorage.setItem('firstname', username);
+  const storedname = localStorage.getItem('firstname');
+  document.getElementById('reg').innerHTML = `Hi ${storedname}`;
+  e.preventDefault();
+  document.getElementById('login-box').classList.remove('navbar-section-hover');
+});
+
+const counters = document.querySelectorAll('.counter');
+const speed = 200;
+counters.forEach((counter) => {
+  const updateCount = () => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+    const increase = target / speed;
+
+    // eslint-disable-next-line no-param-reassign
+    
+// count < target ? (counter.innerText = Math.round(count + increase),
+//     setTimeout(updateCount, 1)) : counter.innerText = Math.round(target);
+
+    counter.innerText = (count < target) ? (Math.round(count + increase),
+    setTimeout(updateCount, 1)) : Math.round(target);
+  };
+  updateCount();
+});
