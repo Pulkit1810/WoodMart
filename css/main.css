@@ -109,7 +109,7 @@ i {
   font-size: 16px;
   text-align: left; }
 
-#shop-menu {
+.shop-menu {
   border: 2px solid black;
   width: 600px;
   height: 430px;
@@ -292,12 +292,12 @@ button.socialmedia {
 #signin {
   font-size: 30px; }
 
-.proud {
+.counter-section-text {
   font-weight: 900;
   font-size: 40px;
   margin-bottom: 0px; }
 
-.proud2 {
+.counter-section-variables {
   font-weight: bold;
   font-size: 20px; }
 
@@ -710,7 +710,7 @@ button.socialmedia {
     /* overflow: hidden; */
     transition: 0.5s; }
 
-.overlay {
+.our-products-cart-button {
   position: absolute;
   background-color: #83ac2b;
   padding: 3px;
@@ -818,7 +818,7 @@ button.socialmedia {
 
 /*Our Blogs Ending*/
 /* Counter section STARTING */
-.proud-punch {
+.counter-section {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #ff4f63;
@@ -827,7 +827,7 @@ button.socialmedia {
   margin-top: 100px;
   margin-bottom: 100px; }
 
-.proud-punch-item {
+.counter-section-item {
   padding: 20px;
   /* font-size: 30px; */
   text-align: left; }
@@ -839,12 +839,19 @@ button.socialmedia {
 
 .ingredients-item {
   /* /padding: 20px;/ */
-  /* /font-size: 30px;/ */
   text-align: left; }
+
+.counter-section-variables {
+  font-size: 25px;
+  font-weight: bold; }
+
+.ingredients-item > .counter {
+  font-size: 30px;
+  font-weight: bold; }
 
 /* Counter section ENDING */
 /* carefully picked STARTING */
-.grid-carefully-picked {
+.bottom-grid {
   margin-right: 20px;
   padding: 0;
   display: grid;
@@ -857,30 +864,30 @@ button.socialmedia {
   font-size: 25px;
   font-weight: bold; }
 
-.grid1 {
+.carefully-picked {
   background-color: #8871bf;
   height: 300px;
   width: 25vw; }
 
-.grid2 {
+.freshly-made {
   background-color: #fea443;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.grid3 {
+.securely-packed {
   background-color: #f46277;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.grid4 {
+.best-ingredients {
   background-color: #aebd7c;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.grid-carefully-picked > .num {
+.bottom-grid > .bottom-grid-number {
   font-size: 40px;
   font-weight: 800;
   color: #fff;
@@ -897,31 +904,31 @@ button.socialmedia {
   overflow-x: hidden;
   color: #fff; }
 
-.grid1 {
+.carefully-picked {
   background-color: #8871bf;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.grid2 {
+.freshly-made {
   background-color: #fea443;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.grid3 {
+.securely-packed {
   background-color: #f46277;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.grid4 {
+.best-ingredients {
   background-color: #aebd7c;
   height: 300px;
   width: 25vw;
   padding: 20px; }
 
-.num {
+.bottom-grid-number {
   margin-top: 10px;
   font-size: 40px;
   font-weight: 800;
@@ -934,7 +941,7 @@ button.socialmedia {
 
 /* carefully picked ENDING */
 /*How it works : start*/
-.f1 {
+.how-it-works-heading {
   margin-top: 80px;
   font-size: 50px;
   color: black;
@@ -942,36 +949,36 @@ button.socialmedia {
   font-family: "Signika";
   margin-left: 500px; }
 
-.work {
+.how-it-works {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 0px;
   margin-left: 50px; }
-  .work > div {
+  .how-it-works > div {
     padding: 20px 0;
     color: black; }
 
-.workl {
+.how-it-works-left {
   font-size: 20px;
   width: 320px;
   height: 300px;
   text-align: right;
   padding-left: 0px; }
-  .workl li {
+  .how-it-works-left li {
     list-style: none;
     margin-top: 10px; }
 
-.workim {
+.howi-t-works-image {
   width: 500px;
   margin-left: 50px; }
 
-.workr {
+.how-it-works-right {
   font-size: 20px;
   width: 320px;
   text-align: left;
   margin-left: -100px;
   padding-left: 0px; }
-  .workr li {
+  .how-it-works-right li {
     list-style: none;
     margin-top: 10px; }
 
@@ -995,7 +1002,7 @@ body {
 .content {
   text-align: center; }
 
-.grid-container2 {
+.our-products-container {
   display: grid;
   margin-left: 30px;
   margin-right: 30px;
@@ -1004,19 +1011,19 @@ body {
   gap: 15px 20px;
   background-color: white; }
 
-.grid-element2 {
+.our-products-element {
   position: relative;
   background-color: white;
   color: #fff;
   -ms-flex-line-pack: center;
   align-content: center; }
 
-.grid-container2 .grid-element2 img {
+.our-products-container .our-products-element img {
   display: block;
   width: 100%;
   height: 100%; }
 
-.grid-element2 .overlay {
+.our-products-element .our-products-cart-button {
   position: absolute;
   bottom: 0;
   left: 20px;
@@ -1028,7 +1035,7 @@ body {
   transition: height 0.5s;
   background-color: #a3c45d; }
 
-.grid-element2:hover .overlay {
+.our-products-element:hover .our-products-cart-button {
   height: 40px;
   opacity: 0.9;
   font-family: "Courier New", Courier, monospace;
@@ -1036,7 +1043,7 @@ body {
   font-weight: bold;
   color: #fff; }
 
-.grid-element2 .overlay1 {
+.our-products-element .our-products-icons {
   position: relative;
   left: auto;
   right: auto;
@@ -1049,7 +1056,7 @@ body {
   transition: 0.5s ease;
   background-color: #fff; }
 
-.grid-element2:hover .overlay1 {
+.our-products-element:hover .our-products-icons {
   width: 50px;
   color: #333333; }
 
@@ -1059,7 +1066,7 @@ body {
   padding-top: 8px;
   margin-bottom: 20px; }
 
-.text1 {
+.our-products-button-text {
   text-align: center;
   padding-top: 5px;
   text-transform: uppercase; }
@@ -1304,25 +1311,25 @@ section {
     height: auto; }
   .card-title {
     font-size: 35px; }
-  .f1 {
+  .how-it-works-heading {
     margin-left: 470px; }
-  .workl {
+  .how-it-works-left {
     text-align: center;
     font-size: 25px; }
-  .work {
+  .how-it-works {
     margin-left: 400px; }
-  .workim {
+  .howi-t-works-image {
     margin-top: 340px;
     grid-row: 3/4; }
-  .workr {
+  .how-it-works-right {
     text-align: center;
     font-size: 25px;
     grid-row: 4/5;
     margin-left: 10px; }
   .content,
-  .grid-container2 {
+  .our-products-container {
     display: none; }
-  .proud-punch {
+  .counter-section {
     text-align: left;
     grid-template-columns: minmax(0, 2fr);
     font-size: 25px;
@@ -1331,24 +1338,24 @@ section {
     grid-template-columns: minmax(0, 1fr); }
   ​​ .punchimage {
     margin-left: 260px; }
-  .proud-punch-item {
+  .counter-section-item {
     text-align: center;
     margin-left: 30px; }
-  .grid-carefully-picked h3 {
+  .bottom-grid h3 {
     font-size: 30px; }
-  .grid1 {
+  .carefully-picked {
     grid-row: 1/2;
     width: 75%;
     font-size: 25px; }
-  .grid2 {
+  .freshly-made {
     grid-row: 3/4;
     width: 75%;
     font-size: 25px; }
-  .grid3 {
+  .securely-packed {
     grid-row: 4/5;
     width: 75%;
     font-size: 25px; }
-  .grid4 {
+  .best-ingredients {
     grid-row: 5/6;
     width: 75%;
     font-size: 25px; }
@@ -1371,10 +1378,10 @@ section {
   .featured-product-zoom,
   .card-center {
     width: 100%; }
-  .grid1,
-  .grid2,
-  .grid3,
-  .grid4 {
+  .carefully-picked,
+  .freshly-made,
+  .securely-packed,
+  .best-ingredients {
     margin: 0 auto; }
   .footer,
   .navbar-brand {
@@ -1409,16 +1416,16 @@ section {
     margin-left: 700px; }
   /* Blend fruits section: end */
   /*carefully picked section: start*/
-  .grid-carefully-picked {
+  .bottom-grid {
     display: grid;
     grid-template-columns: 50% 50%; }
-  .grid1 {
+  .carefully-picked {
     width: 100%; }
-  .grid2 {
+  .freshly-made {
     width: 100%; }
-  .grid3 {
+  .securely-packed {
     width: 100%; }
-  .grid4 {
+  .best-ingredients {
     width: 100%; }
   .bottomnav i {
     margin-top: 22px;

@@ -1,6 +1,6 @@
 /*How it works : start*/
 
-.f1 {
+.how-it-works-heading {
   margin-top: 80px;
   font-size: 50px;
   color: black;
@@ -9,7 +9,7 @@
   margin-left: 500px;
 }
 
-.work {
+.how-it-works {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 0px;
@@ -21,7 +21,7 @@
   }
 }
 
-.workl {
+.how-it-works-left {
   font-size: 20px;
   width: 320px;
   height: 300px;
@@ -34,12 +34,12 @@
   }
 }
 
-.workim {
+.howi-t-works-image {
   width: 500px;
   margin-left: 50px;
 }
 
-.workr {
+.how-it-works-right {
   font-size: 20px;
   width: 320px;
   text-align: left;

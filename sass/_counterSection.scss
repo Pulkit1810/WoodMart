@@ -1,6 +1,6 @@
 /* Counter section STARTING */
 
-.proud-punch {
+.counter-section {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #ff4f63;
@@ -10,7 +10,7 @@
   margin-bottom: 100px;
 }
 
-.proud-punch-item {
+.counter-section-item {
   padding: 20px;
 
   /* font-size: 30px; */
@@ -26,8 +26,18 @@
 
 .ingredients-item {
   /* /padding: 20px;/ */
-  /* /font-size: 30px;/ */
+  // font-size: 20px;
   text-align: left;
+}
+
+.counter-section-variables{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ingredients-item > .counter {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /* Counter section ENDING */

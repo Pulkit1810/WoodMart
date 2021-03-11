@@ -2,9 +2,9 @@ const home = document.getElementById('home-link');
 
 const homeNavbarPopup = document.getElementById('home-menu');
 
-const shop = document.getElementById('shop-link');
+const shop = document.querySelector('.shop-link');
 
-const shopNavbarPopup = document.getElementById('shop-menu');
+const shopNavbarPopup = document.querySelector('.shop-menu');
 
 const blog = document.getElementById('blog-link');
 

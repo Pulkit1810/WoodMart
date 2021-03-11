@@ -1,5 +1,5 @@
 /* Counter section */
-.proud-punch {
+.counter-section {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #ff4f63;
@@ -8,7 +8,7 @@
   margin-top: 100px;
   margin-bottom: 100px; }
 
-.proud-punch-item {
+.counter-section-item {
   padding: 20px;
   text-align: left; }
 

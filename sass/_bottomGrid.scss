@@ -1,6 +1,6 @@
 /* carefully picked STARTING */
 
-.grid-carefully-picked {
+.bottom-grid {
   margin-right: 20px;
   padding: 0;
   display: grid;
@@ -15,34 +15,34 @@
   font-weight: bold;
 }
 
-.grid1 {
+.carefully-picked {
   background-color: #8871bf;
   height: 300px;
   width: 25vw;
 }
 
-.grid2 {
+.freshly-made {
   background-color: #fea443;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.grid3 {
+.securely-packed {
   background-color: #f46277;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.grid4 {
+.best-ingredients {
   background-color: #aebd7c;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.grid-carefully-picked > .num {
+.bottom-grid > .bottom-grid-number {
   font-size: 40px;
   font-weight: 800;
   color: #fff;
@@ -62,35 +62,35 @@
   color: #fff;
 }
 
-.grid1 {
+.carefully-picked {
   background-color: #8871bf;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.grid2 {
+.freshly-made {
   background-color: #fea443;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.grid3 {
+.securely-packed {
   background-color: #f46277;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.grid4 {
+.best-ingredients {
   background-color: #aebd7c;
   height: 300px;
   width: 25vw;
   padding: 20px;
 }
 
-.num {
+.bottom-grid-number {
   margin-top: 10px;
   font-size: 40px;
   font-weight: 800;
