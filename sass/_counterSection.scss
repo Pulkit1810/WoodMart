@@ -1,4 +1,4 @@
-/* Counter section */
+/* Counter section STARTING */
 
 .proud-punch {
   display: grid;
@@ -12,16 +12,22 @@
 
 .proud-punch-item {
   padding: 20px;
+
+  /* font-size: 30px; */
   text-align: left;
 }
 
 .ingredients {
   display: grid;
   grid-template-columns: auto auto auto;
+
+  /* padding: 10px; */
 }
 
 .ingredients-item {
+  /* /padding: 20px;/ */
+  /* /font-size: 30px;/ */
   text-align: left;
 }
 
-/* Counter section */
+/* Counter section ENDING */

@@ -1,7 +1,7 @@
 /* test */
 
 .store {
-  background: rgb(238, 238, 238);
+  background: #eeeeee;
 }
 
 .search-box {
@@ -10,11 +10,11 @@
 }
 
 .single-item {
-  -webkit-transition: all 0.3 linear;
+  transition: all 0.3 linear;
   transition: all 0.3 linear;
 
   &:hover {
-    -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
   }
 }
@@ -26,12 +26,12 @@
 }
 
 .store-img {
-  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
 .img-container:hover .store-img {
-  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   transform: scale(1.2);
 }
 
@@ -43,14 +43,14 @@
   padding: 0.75rem;
   background: #83b735;
   border-top-left-radius: 1rem;
-  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  -webkit-transform: translate(100%, 100%);
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
   transform: translate(100%, 100%);
 }
 
 .img-container:hover .store-item-icon {
-  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
