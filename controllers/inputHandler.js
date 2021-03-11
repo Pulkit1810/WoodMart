@@ -7,6 +7,7 @@ let recievedFunc = fetchUsers();
 setTimeout(() => {
     console.log(recievedFunc())
 }, 2000);
+var result;
 $(document).ready(function() {
     $("#user-input").blur(function() {
 
@@ -14,9 +15,11 @@ $(document).ready(function() {
         let userInput = DOMUserInput.value;
         const verify = checkUser(userInput, response);
         if (verify) {
-            alert("Working");
+            result="Correct Username";
+            document.getElementById("loginresult").innerHTML=result;
         } else {
-            alert("Not Working");
+            result="Inorrect Username";
+            document.getElementById("loginresult").innerHTML=result;
         }
 
 

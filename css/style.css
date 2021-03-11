@@ -15,7 +15,6 @@
   }
 }
 
-
 @media screen and (max-width: 960px) {
   .col {
     flex: 100%;
@@ -99,12 +98,10 @@ i {
 .bottomnav i {
   margin-left: 120px;
 }
-
 .pophead{
   font-size: 20px;
   font-weight: bold;
 }
-
 #home-menu {
   border: 2px solid black;
   width: 900px;
@@ -271,7 +268,7 @@ button.socialmedia:hover {
   color: white;
 }
 #close {
-  /*Aayushman Change*/
+
   position: absolute;
   top: 20px;
   right: 30px;
@@ -285,9 +282,9 @@ button.socialmedia:hover {
   padding: 0px 5px 20px 5px;
   border: 2px solid black;
   border-radius: 8px;
-
-  /*Aayushman change*/
+ 
 }
+
 /* NAVBAR ENDING */
 /* Making Navbar Dropdown Open On Hover STARTING */
 @media all and (min-width: 992px) {
@@ -331,14 +328,11 @@ button.socialmedia:hover {
   font-weight: 900;
   font-size: 40px;
   margin-bottom:0px;
-
 }
 .proud2{
   font-weight: bold;
   font-size:20px;
 }
-
-
 
 /* Making Navbar Dropdown Open On Hover ENDING */
 /* test */
@@ -352,11 +346,11 @@ button.socialmedia:hover {
 }
 
 .single-item {
-transition: all 0.3 linear;
+  transition: all 0.3 linear;
   transition: all 0.3 linear;
 }
 .single-item:hover {
- box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -367,12 +361,12 @@ transition: all 0.3 linear;
 }
 
 .store-img {
-transition: all 1s ease-in-out;
+ transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
 .img-container:hover .store-img {
- transform: scale(1.2);
+  transform: scale(1.2);
   transform: scale(1.2);
 }
 
@@ -384,14 +378,14 @@ transition: all 1s ease-in-out;
   padding: 0.75rem;
   background: #83b735;
   border-top-left-radius: 1rem;
- transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-transform: translate(100%, 100%);
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
   transform: translate(100%, 100%);
 }
 
 .img-container:hover .store-item-icon {
-transform: translate(0, 0);
+  transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
@@ -410,10 +404,10 @@ transform: translate(0, 0);
 /* test */
 /* Featured Products Starting */
 .svg-icon {
- tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   color: #777;
   text-rendering: optimizeLegibility;
- font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   text-align: center;
   box-sizing: border-box;
   margin: 0;
@@ -449,10 +443,10 @@ transform: translate(0, 0);
 
 .text-description {
   font-size: 14px;
-  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   color: #3a3a3a;
   text-rendering: optimizeLegibility;
- font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   text-align: center;
   box-sizing: border-box;
   font-weight: 400;
@@ -531,9 +525,9 @@ transform: translate(0, 0);
 /* Cards ENDING */
 /* Buttons STARTING */
 .cart-button {
- tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   border: 0;
@@ -583,9 +577,9 @@ transform: translate(0, 0);
   background-color: #101010;
   color: white;
   border-radius: 25px;
- tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
   border: 0;
@@ -777,10 +771,10 @@ transform: translate(0, 0);
 }
 
 .svg-icon {
-  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   color: #777;
   text-rendering: optimizeLegibility;
- font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   text-align: center;
   box-sizing: border-box;
   border: 0;
@@ -975,12 +969,10 @@ transform: translate(0, 0);
   color: #fff;
   grid-gap: 0px;
 }
-
 .head{
   font-size: 25px;
   font-weight: bold;
 }
-
 .grid1 {
   background-color: #8871bf;
   height: 300px;
@@ -1059,7 +1051,7 @@ transform: translate(0, 0);
 }
 
 .num {
-
+ 
   margin-top: 10px;
   font-size: 40px;
   font-weight: 800;
@@ -1178,8 +1170,8 @@ body {
   height: 0px;
   width: 80%;
   opacity: 0;
-  transition: height 0.5s;
- transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
   transition: height 0.5s;
   background-color: #a3c45d;
 }
@@ -1201,8 +1193,8 @@ body {
   bottom: 100%;
   height: 50%;
   width: 0px;
-  transition: 0.5s ease;
- transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
   background-color: #fff;
 }
@@ -1471,7 +1463,7 @@ section {
     text-align: center;
   }
   .section--home {
- 
+   
     background-size: cover;
     height: 1000px;
   }
@@ -1520,8 +1512,9 @@ section {
     width: 100%;
     height: auto;
   }
-   .card-title {
-    font-size: 35px;
+
+  .card-title {
+    font-size: 25px;
   }
   .f1 {
     margin-left: 470px;
@@ -1531,7 +1524,7 @@ section {
     font-size: 25px;
   }
   .work {
-    margin-left: 400px;
+    margin-left: 420px;
   }
   .workim {
     margin-top: 340px;
@@ -1563,7 +1556,7 @@ section {
     text-align: center;
     margin-left: 30px;
   }
-  
+ 
   .grid-carefully-picked h3 {
     font-size: 30px;
   }
@@ -1624,7 +1617,7 @@ section {
   .navbar-brand {
     font-size: 30px;
   }
-   .footer .row{
+  .footer .row{
     margin-left: 100px ; 
   }
 }
@@ -1641,7 +1634,7 @@ section {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
   .single-item-right {
     display: none;
   }
@@ -1665,7 +1658,7 @@ section {
     margin-top: -500px;
     margin-left: 700px;
   }
-  
+ 
   /* Blend fruits section: end */
   /*carefully picked section: start*/
   .grid-carefully-picked {
@@ -1693,7 +1686,8 @@ section {
     margin-left: 100px;
   }
 
-   .footer .row{
+  
+  .footer .row{
     margin-left: 100px ; 
   }
 
@@ -1701,10 +1695,6 @@ section {
 
 /* Footer STARTING */
 /* Footer ENDING */
-
-
-
 .navbar-section-hover{
   display:block !important;
 }
-

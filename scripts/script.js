@@ -1,6 +1,5 @@
 window.addEventListener("scroll", function() { document.querySelector("nav").classList.toggle("sticky", 0 < window.scrollY) });
 
-
 var home = document.getElementById("home-link");
 home.addEventListener("mouseover", show), home.addEventListener("mouseout", hide);
 
@@ -25,12 +24,8 @@ loginbutton.addEventListener("click", login);
 var closebutton = document.getElementById("close");
  closebutton.addEventListener("click", hidelog);
 
-// function show() {homeNavbarPopup.classList.add("navbar-section-hover")}
 
-const show = () => {
- return homeNavbarPopup.classList.add("navbar-section-hover");
-}
-
+ function show() {homeNavbarPopup.classList.add("navbar-section-hover")}
 
 function hide() {homeNavbarPopup.classList.remove("navbar-section-hover") }
 
