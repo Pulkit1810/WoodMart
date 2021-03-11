@@ -1139,8 +1139,10 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 30px; }
+  justify-content: center; }
+
+.svg-icon-testimonial {
+  margin-bottom: 30px; }
 
 .testimonials > .col {
   flex: 33.33%;
