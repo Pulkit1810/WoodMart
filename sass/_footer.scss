@@ -129,25 +129,25 @@
     font-size: 35px;
   }
 
-  .how-it-works-heading {
+  .f1 {
     margin-left: 470px;
   }
 
-  .how-it-works-left {
+  .workl {
     text-align: center;
     font-size: 25px;
   }
 
-  .how-it-works {
+  .work {
     margin-left: 400px;
   }
 
-  .howi-t-works-image {
+  .workim {
     margin-top: 340px;
     grid-row: 3/4;
   }
 
-  .how-it-works-right {
+  .workr {
     text-align: center;
     font-size: 25px;
     grid-row: 4/5;
@@ -155,11 +155,11 @@
   }
 
   .content,
-  .our-products-container {
+  .grid-container2 {
     display: none;
   }
 
-  .counter-section {
+  .proud-punch {
     text-align: left;
     grid-template-columns: minmax(0, 2fr);
     font-size: 25px;
@@ -176,34 +176,34 @@
     }
   }
 
-  .counter-section-item {
+  .proud-punch-item {
     text-align: center;
     margin-left: 30px;
   }
 
-  .bottom-grid h3 {
+  .grid-carefully-picked h3 {
     font-size: 30px;
   }
 
-  .carefully-picked {
+  .grid1 {
     grid-row: 1/2;
     width: 75%;
     font-size: 25px;
   }
 
-  .freshly-made {
+  .grid2 {
     grid-row: 3/4;
     width: 75%;
     font-size: 25px;
   }
 
-  .securely-packed {
+  .grid3 {
     grid-row: 4/5;
     width: 75%;
     font-size: 25px;
   }
 
-  .best-ingredients {
+  .grid4 {
     grid-row: 5/6;
     width: 75%;
     font-size: 25px;
@@ -240,10 +240,10 @@
     width: 100%;
   }
 
-  .carefully-picked,
-  .freshly-made,
-  .securely-packed,
-  .best-ingredients {
+  .grid1,
+  .grid2,
+  .grid3,
+  .grid4 {
     margin: 0 auto;
   }
 
@@ -304,24 +304,24 @@
   /* Blend fruits section: end */
   /*carefully picked section: start*/
 
-  .bottom-grid {
+  .grid-carefully-picked {
     display: grid;
     grid-template-columns: 50% 50%;
   }
 
-  .carefully-picked {
+  .grid1 {
     width: 100%;
   }
 
-  .freshly-made {
+  .grid2 {
     width: 100%;
   }
 
-  .securely-packed {
+  .grid3 {
     width: 100%;
   }
 
-  .best-ingredients {
+  .grid4 {
     width: 100%;
   }
 
